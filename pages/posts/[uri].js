@@ -27,7 +27,7 @@ export default function SlugPage({ post }) {
         <meta property="og:description" content={post?.title} />
         <meta property="og:image" content={post?.featuredImage?.node?.sourceUrl} />
         <meta property="og:url" content={`https://edenultralounge.vercel.app/posts/${post?.slug}`} />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="website" />
         <link rel="icon" href="favicon.ico"></link>
       </Head>
 
